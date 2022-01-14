@@ -24,6 +24,7 @@ query {
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   background-color: black;
+  color: white;
   margin:0;
   padding:0;
   line-height: 1.5;

@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Mad Branch',
+  siteDescription: 'Custom Woodworking, turning, carving in Atlanta, Georgia.',
   siteUrl: 'https://madbranch.studio',
   pathPrefix: '/mad-branch',
   plugins: []
