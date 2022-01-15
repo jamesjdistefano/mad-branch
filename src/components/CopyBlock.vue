@@ -1,7 +1,7 @@
 <template>
     <section class="copy-block" :style="{'background-color' : bgColor}">
         <slot />
-        <p class = "attribution"><slot name="secondary" /></p>
+        <p class="attribution"><slot name="secondary" /></p>
     </section>
 </template>
 
@@ -25,7 +25,8 @@ export default {
 
 section {
     background-color: black;
-    border-bottom: 12px var(--maroon) solid;
+    border-left: var(--warm-grey) 1px solid;
+    border-right: var(--warm-grey) 1px solid;
     padding: 28rem;
     margin: 0;
 }
@@ -34,6 +35,7 @@ img {
     width: 100%;
     display: block;
 }
+
 
 .attribution { 
     font-family: Heebo-Thin, sans-serif; 

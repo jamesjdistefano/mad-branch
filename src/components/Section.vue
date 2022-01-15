@@ -1,5 +1,5 @@
 <template>
-    <section class="section">
+    <section class="section" :style="cssVars">
         <slot name="image" />
     </section>
 </template>
@@ -22,6 +22,8 @@ export default {
 @import "../assets/css/variables.scss";
 
 section {
+    border-left: var(--warm-grey) 1px solid;
+    border-right: var(--warm-grey) 1px solid;
     border-bottom: 12px var(--border) solid;
     padding: 0;
     margin: 0;

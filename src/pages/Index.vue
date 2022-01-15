@@ -3,13 +3,13 @@
     <Section border="var(--maroon)">
       <template #image><img src="../../src/logo-mad-branch-woodworking-studio.svg" /></template>
     </Section>
-    <Section>
+    <Section border="var(--salmon)">
       <template #image><img src="../../static/images/jaunty-fatboy.png" /></template>
     </Section>
-    <Section>
+    <Section border="var(--spring-green)">
       <template #image><img src="../../static/images/small-bowl-top-down.jpg" /></template>
     </Section>
-    <Section>
+    <Section border="var(--perrywinkle)">
       <template #image><img src="../../static/images/chopsticks.png" /></template>
     </Section>
     <CopyBlock>
@@ -19,11 +19,11 @@
       <template #secondary><a href="#">email MadBranch</a></template>
     </CopyBlock>
 
-    <Section>
+    <Section border="var(--gold)">
       <template #image><img src="../../static/images/october.png" /></template>
     </Section>
 
-    <CopyBlock bgColor="var(--teal)">
+    <CopyBlock type="quote" bgColor="var(--teal)">
       <template>
         "Perfection is beautiful but stupid." 
       </template>
