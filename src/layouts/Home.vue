@@ -1,10 +1,19 @@
 <template>
     <div class="home">
-        <img class="full" src = "images/logo-mad-branch-woodworking-studio.svg" />
-        <p><a>email Mad Branch</a></p>
+        <nav>
+            <div><img src="../../static/images/mark.svg" width=64 /></div>
+            <div>Navigation</div>
+        </nav>
+        <slot />
     </div>
 </template>
 
-<style lang="scss">
-    @import "~/assets/css/styles.scss"
+
+<style scoped lang="scss">
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem; 
+    }
 </style>

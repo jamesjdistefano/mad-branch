@@ -1,13 +1,32 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
 html {
   font-size: 10px;
 }
 
 body {
-  margin: 0;
-  background-color: green;
-  color: white;
+  background-color: #e9e6dc;
+  color: black;
   font-size: 1.6rem;
-  font-family: "BerninaSans-Light", serif;
+  max-width: 144rem;
+  border-left: var(--warm-grey) 1px solid;
+  border-right: var(--warm-grey) 1px solid;
+  margin: 0 auto;
+}
+
+.header-container,
+.body-container,
+.footer-container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.copy-block {
+  font-family: "Heebo-Thin", serif;
+  font-size: clamp(3.2rem, 3.6vw, 4.8rem);
+  line-height: clamp(5rem, 5vw, 7rem);
+  color: white;
 }
 
 div {
@@ -16,4 +35,9 @@ div {
 
 .full {
   width: 100%;
+}
+
+img {
+  padding: 0;
+  margin: 0;
 }
