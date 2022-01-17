@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "PageSection",
+  name: "CopyBlock",
   props: {
     align: {
       type: String,

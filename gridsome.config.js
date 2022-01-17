@@ -8,6 +8,5 @@ module.exports = {
   siteName: 'Mad Branch',
   siteDescription: 'Custom Woodworking, turning, carving in Atlanta, Georgia.',
   siteUrl: 'https://madbranch.studio',
-  pathPrefix: '/mad-branch',
   plugins: []
 }
