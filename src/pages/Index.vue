@@ -1,37 +1,33 @@
 <template>
   <Home>
-    <Header>
-    </Header>
-
+    <Header />
     <Section border="var(--salmon)">
       <template #image><img src="../../static/images/jaunty-fatboy.png" /></template>
     </Section>
     <Section border="var(--spring-green)">
       <template #image><img src="../../static/images/small-bowl-top-down.jpg" /></template>
     </Section>
-    <Section border="var(--perrywinkle)">
+    <Section border="var(--hot-pink)">
       <template #image><img src="../../static/images/chopsticks.png" /></template>
     </Section>
     <CopyBlock>
       <template>
         Based in Atlanta, GA, Mad Branch is a custom woodworking studio specializing in turned, carved, and sculpted pieces, primarily from reclaimed wood. 
       </template>
-      <template #secondary><a href="#">email MadBranch</a></template>
+      <template #secondary><a href="mailto: madbranch.studio@gmail.com">email MadBranch</a></template>
     </CopyBlock>
 
     <Section border="var(--gold)">
       <template #image><img src="../../static/images/october.png" /></template>
     </Section>
 
-    <CopyBlock type="quote" bgColor="var(--teal)">
-      <template>
-        "Perfection is beautiful but stupid." 
-      </template>
-      <template #secondary>– Bruno Munari</template>
-    </CopyBlock>
+    <Quote bgColor="var(--teal)">
+      <template>Perfection is beautiful but stupid.</template>
+      <template #secondary>Bruno Munari</template>
+    </Quote>
 
-    <Section>
-      <template #image><img src="../../static/images/wez-main.png" /></template>
+    <Section border="var(--salmon)">
+      <template #image><img src="../../static/images/wez.png" /></template>
     </Section>
   </Home>
 </template>

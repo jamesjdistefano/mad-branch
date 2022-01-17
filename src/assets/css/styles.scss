@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #e9e6dc;
+  background-color: $cream;
   color: black;
   font-size: 1.6rem;
   max-width: 144rem;
@@ -38,4 +38,9 @@ div {
 img {
   padding: 0;
   margin: 0;
+}
+
+a {
+  color: $spring-green;
+  text-decoration: none;
 }

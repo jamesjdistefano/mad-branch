@@ -3,7 +3,7 @@
         <g-link class="nav__link" to="/"><img src="../../static/images/MB_mark.svg" width=72 /></g-link>
         <ul>
             <li><g-link class="nav__link" to="/">Projects</g-link></li>
-            <li><g-link class="nav__link" to="/">About</g-link></li>
+            <li><g-link class="nav__link" to="/about/">About</g-link></li>
             <li><g-link class="nav__link" to="/">Contact</g-link></li>
         </ul>
     </nav>
@@ -33,7 +33,7 @@ ul {
 }
 
 li {
-    font-family: Heebo-Regular, sans-serif;
+    font-family: Heebo-Light, sans-serif;
     font-size: 2.4rem;
 }
 </style>
