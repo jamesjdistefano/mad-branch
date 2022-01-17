@@ -1,9 +1,5 @@
 <template>
     <div class="home">
-        <nav>
-            <div><img src="../../static/images/mark.svg" width=64 /></div>
-            <div>Navigation</div>
-        </nav>
         <slot />
     </div>
 </template>

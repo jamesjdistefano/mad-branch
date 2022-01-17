@@ -1,8 +1,8 @@
 <template>
   <Home>
-    <Section border="var(--maroon)">
-      <template #image><img src="../../src/logo-mad-branch-woodworking-studio.svg" /></template>
-    </Section>
+    <Header>
+    </Header>
+
     <Section border="var(--salmon)">
       <template #image><img src="../../static/images/jaunty-fatboy.png" /></template>
     </Section>
