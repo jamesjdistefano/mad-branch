@@ -8,8 +8,9 @@ html {
 body {
   background-color: $cream;
   color: black;
-  font-size: 1.6rem;
-  max-width: 144rem;
+  font-size: 2.1rem;
+  padding: 0 8rem;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -22,8 +23,8 @@ body {
 
 .copy-block {
   font-family: "Heebo-Thin", serif;
-  font-size: clamp(3.2rem, 3.6vw, 4.8rem);
-  line-height: clamp(5rem, 5vw, 7rem);
+  font-size: clamp(3.2rem, 3.6vw, 6.8rem);
+  line-height: clamp(5rem, 5vw, 9rem);
   color: white;
 }
 

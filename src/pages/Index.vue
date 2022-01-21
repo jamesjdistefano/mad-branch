@@ -12,7 +12,7 @@
     </Section>
     <CopyBlock>
       <template>
-        Based in Atlanta, GA, Mad Branch is a custom woodworking studio specializing in turned, carved, and sculpted pieces, primarily from reclaimed wood. 
+        Based in Atlanta, GA, <h1>Mad Branch is a custom woodworking studio</h1> specializing in turned, carved, and sculpted pieces, primarily from reclaimed wood. 
       </template>
       <template #secondary><a href="mailto: madbranch.studio@gmail.com">email MadBranch</a></template>
     </CopyBlock>
@@ -41,5 +41,8 @@ export default {
 </script>
 
 <style>
-
+h1 { 
+  display: inline;
+  font: inherit;
+}
 </style>

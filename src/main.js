@@ -5,6 +5,7 @@ import '~/assets/css/styles.scss'
 
 // import DefaultLayout from '~/layouts/Default.vue'
 import Home from '~/layouts/Home.vue'
+import Default from '~/layouts/Default.vue'
 import Header from '~/components/Header.vue'
 import Footer from '~/components/Footer.vue'
 import Navigation from '~/components/Navigation.vue'
@@ -16,6 +17,7 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   // Vue.component('Layout', DefaultLayout)
   Vue.component('Home', Home)
+  Vue.component('Default', Default)
   Vue.component('Header', Header)
   Vue.component('Footer', Footer)
   Vue.component('Navigation', Navigation)

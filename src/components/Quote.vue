@@ -32,16 +32,10 @@ section {
     color: white;
 }
 
-img {
-    width: 100%;
-    display: block;
-}
-
-
 .quote { 
    margin-top: 8rem;
-   font-family: Playfair-Italic, serif; 
-   font-size: 8rem;
+   font-family: Playfair-Italic, serif;
+   font-size: clamp(3rem, -1.2553rem + 8.5106vw, 11rem);
    font-weight: 400;
    letter-spacing: -0.01em;
 }
@@ -53,7 +47,7 @@ img {
    font-weight: 400;
    letter-spacing: 0.02em;
    display: flex; 
-   justify-content: flex-end;
+   justify-content: flex-start;
    margin-right: 40px;
 }
 

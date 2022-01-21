@@ -4,7 +4,7 @@
         <ul>
             <li><g-link class="nav__link" to="/">Projects</g-link></li>
             <li><g-link class="nav__link" to="/about/">About</g-link></li>
-            <li><g-link class="nav__link" to="/">Contact</g-link></li>
+            <li><g-link class="nav__link" to="mailto:madbranch.studio@gmail.com">Contact</g-link></li>
         </ul>
     </nav>
 </template>
