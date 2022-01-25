@@ -10,12 +10,12 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Mad Branch Woodworking Studio | Atlanta, GA'
+    title: 'About Mad Branch Woodworking Studio | Atlanta, GA'
   }
 }
 </script>
 
-<style>
+<style scoped>
 h1 {
   background-color: black;
   color: white;

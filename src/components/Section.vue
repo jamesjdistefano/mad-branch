@@ -1,6 +1,7 @@
 <template>
-    <section class="section" :style="cssVars">
+    <section class="section" :class="display" :style="cssVars">
         <slot name="image" />
+        <slot name="second" />
     </section>
 </template>
 
@@ -8,7 +9,10 @@
 <script>
 export default {
   name: "Section",
-  props: ["border"],
+  props: ["border", "display"],
+  display: {
+      type: String,
+  },
   computed: {
     cssVars() {
       return {
@@ -32,5 +36,16 @@ section {
 img {
     width: 100%;
     display: block;
+}
+
+.two-up { 
+  display: flex; 
+  justify-content: space-evenly;
+  padding: 4rem;
+  img { 
+    display: inline;
+    width: 40%;
+    border: 1px $warm-grey solid;
+    }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <section class="copy-block" :style="{'background-color' : bgColor}">
+    <section class="copy-block" :class= "align" :style="{'background-color' : bgColor}">
         <p class="copy"><slot /></p>
         <p class="attribution"><slot name="secondary" /></p>
     </section>
@@ -30,6 +30,11 @@ section {
     padding: 28rem 12rem;
     margin: 0;
     color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 .copy { 

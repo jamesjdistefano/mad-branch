@@ -1,8 +1,8 @@
 <template>
     <nav class="navigation">
-        <g-link class="nav__link" to="/"><img src="../../static/images/MB_mark.svg" width=72 /></g-link>
+        <g-link class="nav__link" to="/"><img src="../../static/images/MB_mark.svg" width=72 alt="Mad Branch mark." /></g-link>
         <ul>
-            <li><g-link class="nav__link" to="/">Projects</g-link></li>
+            <li><g-link class="nav__link" to="/projects/wez/">Projects</g-link></li>
             <li><g-link class="nav__link" to="/about/">About</g-link></li>
             <li><g-link class="nav__link" to="mailto:madbranch.studio@gmail.com">Contact</g-link></li>
         </ul>
