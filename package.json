@@ -1,5 +1,6 @@
 {
   "name": "mad-branch",
+  "homepage": "https://madbranch.studio",
   "private": true,
   "scripts": {
     "develop": "gridsome develop",
@@ -9,8 +10,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@gridsome/source-contentful": "^0.6.0",
     "gh-pages": "^3.2.3",
     "gridsome": "^0.7.0",
+    "markdown-it": "^13.0.1",
     "node-sass": "^6.0.1",
     "sass-loader": "^10.1.1"
   }

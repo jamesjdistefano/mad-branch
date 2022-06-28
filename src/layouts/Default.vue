@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navigation />
+    <Navigation color="white"/>
     <main>
       <slot/>
     </main>
@@ -16,7 +16,7 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="scss" scoped>
 
 
 </style>

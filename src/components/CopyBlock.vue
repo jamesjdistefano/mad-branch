@@ -1,6 +1,6 @@
 <template>
     <section class="copy-block" :class= "align" :style="{'background-color' : bgColor}">
-        <p class="copy"><slot /></p>
+        <slot />
         <p class="attribution"><slot name="secondary" /></p>
     </section>
 </template>
@@ -37,8 +37,6 @@ section {
   justify-content: center;
 }
 
-.copy { 
-}
 
 .attribution { 
     font-family: Heebo-Thin, sans-serif; 
